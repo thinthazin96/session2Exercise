@@ -41,24 +41,23 @@ b = 4
 # print(lst1 + lst2)
 
 #Problem 11
-print(str(1))
-print(float(1))
-print(bool(1))
-print(int(1.1))
-print(int(False))
+# print(str(1))
+# print(float(1))
+# print(bool(1))
+# print(int(1.1))
+# print(int(False))
 # print(int("baby")) #Note: can't convert String to Integer with one line of code.
 
 #Problem 12
-print("coding is not fun.".upper())
+# print("coding is not fun.".upper())
 
 #problem 13
-for i in "Python":
-    print(i)
+# for i in "Python":
+#     print(i)
 
 #Problem 14
-listt = ["hello", 1, True]
-for i in listt:
-    print(i)
+a = list("Python")
+print(a[2])
 
 
 #problem 15
