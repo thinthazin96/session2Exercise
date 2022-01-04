@@ -16,6 +16,9 @@
 # print(type(True))
 
 #Problem 6
+from typing import Text
+
+
 a = 3
 b = 4
 # print(a + b)
@@ -33,6 +36,31 @@ b = 4
 #     j = j + 1
 
 #Problem 9 & 10 
-lst1 = ["a","b","c"]
-lst2 = ["d","e","f"]
-print(lst1 + lst2)
+# lst1 = ["a","b","c"]
+# lst2 = ["d","e","f"]
+# print(lst1 + lst2)
+
+#Problem 11
+print(str(1))
+print(float(1))
+print(bool(1))
+print(int(1.1))
+print(int(False))
+# print(int("baby")) #Note: can't convert String to Integer with one line of code.
+
+#Problem 12
+print("coding is not fun.".upper())
+
+#problem 13
+for i in "Python":
+    print(i)
+
+#Problem 14
+listt = ["hello", 1, True]
+for i in listt:
+    print(i)
+
+
+#problem 15
+import sys
+print("Python Version: " + sys.version)
